@@ -18,3 +18,38 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+ul {
+list-style: none;
+}
+
+
+.country-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  padding: 0;
+}
+
+.country-card {
+  display: flex;
+  align-items: center;
+  gap: 20px
+}
+
+li .country-name {
+  font-size: 20px;
+  margin: 0;
+}
+
+
+
+.country-name{
+  font-size: 40px;
+  margin: 0;
+}
+
+.county-info-tittle{
+  font-weight: bold;
+}
